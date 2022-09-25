@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-image: url('img/jumbotro.jpg');
+  background-size: cover;
+  background-position: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav {
+  background-color: #383838;
+  padding: 10px;
+  text-align: left;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+}
+.header {
+  padding: 10px 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content {
+  padding: 20px;
+}
+.sticky + .content {
+  padding-top: 0px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 #00000033;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.856);
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: url('img/fabric_1.webp');
+}
+
+.left-content {
+  float: left;
+  width: 65%;
+  height: 100%;
+}
+
+.right-content {
+  float: right;
+  padding: 20px;
+  width: 35%;
+  height: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.right-content img {
+  border-radius: 60px;
+}
+
+.footer {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+img {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: all 0.5s 0s ease;
+}
+.button:hover {
+  background: rgb(196, 89, 56);
+}
+p {
+  text-indent: 45px;
+}
+.button {
+  box-sizing: border-box;
+  float: right;
+  margin-top: 5px;
+  width: 110px;
+  height: 30px;
+  background: #1b28e4;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+  -webkit-box-shadow: 6px 12px 16px -4px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 6px 12px 16px -4px rgba(0, 0, 0, 0.43);
+  box-shadow: 6px 12px 16px -4px rgba(0, 0, 0, 0.43);
+}
+
+.biodata_saya {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.button-media {
+  max-width: 100%;
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 110px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #383838;
+  border-color: #383838;
+  transition: background-color 0.5s ease;
+}
+
+.button-media a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.button-media:hover {
+  background-color: rgb(64, 67, 218);
+  color: black;
+}
+img:hover {
+  width: 130px;
+}
+.cf:before,
+.cf:after {
+  content: ' '; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
